@@ -1,0 +1,16 @@
+
+<div class="container">
+  <h1>{{ title }}</h1>
+
+  <div class="input-group">
+    <input type="text" placeholder="Enter Your Task" #task class="input-task" />
+    <button (click)="addTask(task.value); task.value = ''" class="btn-add">Add Task</button>
+  </div>
+
+  <ul class="task-list">
+    <li *ngFor="let item of list" class="task-item">
+      {{ item.name }} 
+      <button (click)="removeTask(item.id)" class="btn-remove">Remove Task</button>
+    </li>
+  </ul>
+</div>

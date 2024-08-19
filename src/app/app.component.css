@@ -1,0 +1,82 @@
+/* Center the container and add some padding */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the main title */
+  h1 {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Flexbox for input and button alignment */
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the task input field */
+  .input-task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the add task button */
+  .btn-add {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-add:hover {
+    background-color: #218838;
+  }
+  
+  /* Style for the task list */
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style for each task item */
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style for the remove task button */
+  .btn-remove {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .btn-remove:hover {
+    background-color: #c82333;
+  }
+  
